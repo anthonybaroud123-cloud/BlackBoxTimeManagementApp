@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 import { supabase } from '../lib/supabase';
-import { BarChart3 } from 'lucide-react';
+import { ChartBar as BarChart3 } from 'lucide-react';
 import { TimeEntry } from '../types';
 import { formatMinutes, formatCurrency } from '../lib/utils';
 

@@ -1,7 +1,7 @@
 import { QueryClientProvider } from '@tanstack/react-query';
 import { Route, Switch, Link, useLocation } from 'wouter';
 import { queryClient } from './lib/queryClient';
-import { Clock, BarChart3, Users, FolderKanban, Home } from 'lucide-react';
+import { Clock, ChartBar as BarChart3, Users, FolderKanban, Hop as Home } from 'lucide-react';
 import Dashboard from './pages/Dashboard';
 import Projects from './pages/Projects';
 import TimeTracking from './pages/TimeTracking';
