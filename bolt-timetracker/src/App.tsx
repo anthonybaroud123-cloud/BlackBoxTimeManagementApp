@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import { Clock, BarChart3, Users, FolderKanban } from 'lucide-react';
+import { Clock, ChartBar as BarChart3, Users, FolderKanban } from 'lucide-react';
 import Dashboard from './pages/Dashboard';
 import Projects from './pages/Projects';
 import TimeTracking from './pages/TimeTracking';

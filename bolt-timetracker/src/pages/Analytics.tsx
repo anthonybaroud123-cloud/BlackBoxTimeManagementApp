@@ -1,5 +1,5 @@
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/Card';
-import { BarChart3 } from 'lucide-react';
+import { ChartBar as BarChart3 } from 'lucide-react';
 
 export default function Analytics() {
   return (
