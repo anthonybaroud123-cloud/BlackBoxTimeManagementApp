@@ -1,5 +1,5 @@
-run = "cd bolt-timetracker && npm run dev"
-entrypoint = "bolt-timetracker/src/main.tsx"
+run = "cd modern-timetracker && npm run dev"
+entrypoint = "modern-timetracker/src/main.tsx"
 
 [env]
 PATH = "/home/runner/$REPL_SLUG/.config/npm/node_global/bin:/home/runner/$REPL_SLUG/node_modules/.bin:$PATH"
@@ -9,9 +9,9 @@ npm_config_prefix = "/home/runner/$REPL_SLUG/.config/npm/node_global"
 channel = "stable-23_11"
 
 [deployment]
-run = ["sh", "-c", "cd bolt-timetracker && npm run preview"]
+run = ["sh", "-c", "cd modern-timetracker && npm run preview"]
 deploymentTarget = "cloudrun"
 
 [[ports]]
-localPort = 5000
+localPort = 5001
 externalPort = 80
